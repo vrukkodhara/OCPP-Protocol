@@ -54,11 +54,12 @@ Use the CLI to issue commands for charger operations.
 Format:
 ```css
 charger_id action [value]
+```
 
 
 ## Commands:
-Command	Description	Example
-charger_id start	Start charging for the specified charger	1 start
-charger_id stop	Stop charging for the specified charger	2 stop
-charger_id set value	Set the current for the charger	1 set 20
-charger_id setpoint value	Set the setpoint current for the charger	1 setpoint 30
+Command	                           Description	                           Example
+charger_id start	         Start charging for the specified charger	       1 start
+charger_id stop	         Stop charging for the specified charger	       2 stop
+charger_id set value	      Set the current for the charger	                1 set 20
+charger_id setpoint value	Set the setpoint current for the charger	       1 setpoint 30
